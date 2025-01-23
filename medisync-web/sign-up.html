@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediSync - Register</title>
+  <link rel="stylesheet" href="sign-up.css">
+  <script src="sign-up-validation.js" defer></script>
+</head>
+<body>
+
+  <!-- Header Section (from index.html) -->
+  <header>
+    <div class="header-content">
+      <div class="logo-container">
+        <a href="index.php"><img src="medical care logo template social media .png" alt="MediSync Logo" class="logo"></a>
+      </div>
+      <nav>
+        <a href="index.php">Home</a>
+        <a href="choice.php">Ask AI</a>
+        <a href="shop.php">Shop</a>
+        <a href="about-us.php">About Us</a>
+        <a href="ContactUs.php">Contact Us</a>
+      </nav>
+      <a href="login.html" class="signup-btn">Sign In</a>
+    </div>
+  </header>
+
+  <!-- Registration Form (Centered) -->
+  <div class="form-container">
+    <form class="form" action="SignUPdB.php" method="post">
+      <p class="title">Create Account</p>
+      <p class="message">Signup now and Start Shopping with Us.</p>
+      <div class="flex">
+        <label>
+          <input name="FName" class="input" type="text" placeholder="" required>
+          <span>Firstname</span>
+        </label>
+        <label>
+          <input name="LName" class="input" type="text" placeholder="" required>
+          <span>Lastname</span>
+        </label>
+      </div>
+      <label>
+        <input name="Phone" class="input" type="text" placeholder="" required>
+        <span>PhoneNumber</span>
+      </label>
+      <label>
+        <input name="Address" class="input" type="text" placeholder="" required>
+        <span>Address</span>
+      </label>
+      <label>
+        <input name="City" class="input" type="text" placeholder="" required>
+        <span>City</span>
+      </label>
+      <label>
+        <input name="Pincode" class="input" type="text" placeholder="" required>
+        <span>Pincode</span>
+      </label>
+      <label>
+        <input name="Email" class="input" type="email" placeholder="" required>
+        <span>Email</span>
+      </label>
+      <label>
+        <input name="Password" class="input" type="password" placeholder="" required>
+        <span>Password</span>
+      </label>
+      <label>
+        <input name="ConfPassword" class="input" type="password" placeholder="" required>
+        <span>Confirm password</span>
+      </label>
+      <input type="submit" class="submit" value="Sign Up">
+      <p class="signin">Already have an account? <a href="login.html">Sign In</a></p>
+    </form>
+  </div>
+
+</body>
+</html>
