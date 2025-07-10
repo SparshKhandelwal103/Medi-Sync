@@ -1,6 +1,6 @@
 # Medi-Sync
 An AI powered web app for buying medicines and predicting diseases and medications
-How to run:
+How to run :
 The database is created on mySQL and hosted on local xampp server. So copy the database file in your xampp/mysql/data folder.
 Start the xampp server, run the main.py file and you're good to go!
 The Trained models are included in the repo along with all the databases but you can train them yourself using the python notebook files "Disease" and "model2-lstm"
